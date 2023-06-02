@@ -84,7 +84,7 @@ pipeline {
                 nexusVersion: 'nexus3',
                 protocol: 'http',
                 nexusUrl: 'nexus:8081',
-                groupId: '.com.kibernumacademy',
+                groupId: 'com.kibernumacademy',
                 version: '0.0.1-SNAPSHOT',
                 repository: 'maven-snapshots',
                 credentialsId: 'nexus',
