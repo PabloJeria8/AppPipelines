@@ -7,6 +7,7 @@ pipeline {
         stage('Get GitHub') {
             steps {
                 git branch: 'main', url: 'https://github.com/PabloJeria8/AppPipelines.git'
+                sh 'mvn clean package'
             }
         }
     }
